@@ -42,6 +42,11 @@ public class SystemPath {
 		return System.getProperty("user.home");
 	}
 
+	public static boolean isWindowOS() {
+		return System.getProperty("os.name").toLowerCase().startsWith("win")? true : false;
+	}
+
+
 	public static void main(String[] args) {
 		System.out.println(getSysPath());
 		System.out.println(System.getProperty("java.io.tmpdir"));
