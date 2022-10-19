@@ -38,7 +38,7 @@
         <guava.version>17.0</guava.version>
         <validator.version>5.2.4.Final</validator.version>
         <dozer.version>5.5.1</dozer.version>
-        <jackson.version>2.9.5</jackson.version>
+        <jackson.version>2.13.4.1</jackson.version>
         <poi.version>3.9</poi.version>
 
         <shiro.version>1.4.0</shiro.version>
